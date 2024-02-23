@@ -2,9 +2,8 @@ trigger:
 - '*'
 
 pool:
-  vmImage: 'ubuntu-20.04'
-  demands:
-  - npm
+  name: 'sh-spc-games-rel'
+  demands: npm
 
 variables:
   buildConfiguration: 'Release'
